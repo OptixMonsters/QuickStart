@@ -30,15 +30,15 @@ Project:
    Module: FTOptix.Retentivity
    Version: 1.0
  Statistics:
-  TotalNodeCount: 117
-  Objects: 66
-  ObjectTypes: 1
-  Variables: 50
+  TotalNodeCount: 272
+  Objects: 96
+  ObjectTypes: 16
+  Variables: 160
   VariableTypes: 0
   DataTypes: 0
   Methods: 0
-  References: 0
+  References: 2
   ReferenceTypes: 0
-  Files: 20
+  Files: 21
  Nodes:
  - File: Nodes/QuickStart.yaml
