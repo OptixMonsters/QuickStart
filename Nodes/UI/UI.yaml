@@ -880,7 +880,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/QuickStart/UI/Pages/Page9"
+          Value: "/Objects/QuickStart/UI/Pages/UserLogin"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -896,12 +896,21 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/QuickStart/UI/Pages/Page10"
+          Value: "/Objects/QuickStart/UI/Pages/UserManagement"
           Children:
           - Name: Kind
             Type: PropertyType
             DataType: NodeId
             Value: "/Types/ObjectTypes/BaseObjectType/BaseUIObject/Item/Container"
+        - Name: Enabled
+          Type: BaseDataVariableType
+          DataType: Boolean
+          Value: true
+          Children:
+          - Name: DynamicLink
+            Type: DynamicLink
+            DataType: NodePath
+            Value: "{Session}/Groups/Group2"
       - Name: Panel11
         Type: NavigationPanelItem
         Children:

@@ -1,3 +1,130 @@
 Name: Users
 Id: g=8cdfe95c558e909385d4fe7ddc9a2655
 Type: UsersCategoryFolder
+Children:
+- Name: User1
+  Id: g=ee914c3991f96c73c2461cccee3acee9
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=2d8595c921c0f18593a7258d70d3913a
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=b706efbba99a5e3f64db127210143bdc
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [118,41,38,6,79,196,239,54,146,57,244,215,108,118,226,24,149,86,141,11,191,98,250,215,173,169,15,178,52,69,129,125],
+         "Salt": [82,31,128,163,166,8,233,181,236,15,154,173,161,189,142,101,189,63,83,23,150,122,119,177,232,26,71,32,232,197,45,81]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=af7a3f9067a6432bcc6afefe464037d4
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2024-02-20T05:35:32.5007434"
+    - Name: History
+      Id: g=ba34d25eb207bc440a7f405ade0c6fe3
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[118,41,38,6,79,196,239,54,146,57,244,215,108,118,226,24,149,86,141,11,191,98,250,215,173,169,15,178,52,69,129,125],"Salt":[82,31,128,163,166,8,233,181,236,15,154,173,161,189,142,101,189,63,83,23,150,122,119,177,232,26,71,32,232,197,45,81]}}]
+  - Name: LocaleId
+    Id: g=8253441f8cc9b5eddaf5b75f6f68b462
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=edf0a79f28a8bb30d2bce21bed0f3f64
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=a42f4ebecd61e5d27255489250c6cd05
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 2
+  - Class: Reference
+    Type: HasGroup
+    Target: g=cd8e65269084ea05bdf8dae39791d411
+- Name: User2
+  Id: g=a37f5bb27ad441b2952c7b5cd85a5db2
+  Type: UserType
+  Children:
+  - Name: Password
+    Id: g=3bcbe16770feb852a6e60f32ecb0b18c
+    Type: Password
+    DataType: Password
+    ReferenceType: HasProperty
+    AccessLevel: Read
+    Value: ""
+    Children:
+    - Name: Hash
+      Id: g=bfe68e5db98ce6347b0b641c6994562f
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      Value: 
+       {
+        "TypeId": {
+         "Id": 252,
+         "Namespace": 1
+        },
+        "Body": {
+         "Hash": [12,53,104,96,46,130,68,30,23,128,206,255,4,189,231,8,242,208,225,18,249,62,243,111,37,81,83,16,41,143,194,30],
+         "Salt": [60,191,6,223,116,199,122,50,27,231,76,107,130,220,113,243,198,218,88,106,14,9,222,223,207,202,7,156,145,245,199,31]
+        }
+       }
+    - Name: ChangeTimestamp
+      Id: g=ea29988b5ba0681c11da700dfc6a00d0
+      Type: PropertyType
+      DataType: UtcTime
+      AccessLevel: Read
+      Value: "2024-02-20T05:37:05.5928208"
+    - Name: History
+      Id: g=dee0cb2706f3727bf9147ec6053b8e39
+      Type: PropertyType
+      DataType: PasswordHash
+      AccessLevel: Read
+      ValueRank: OneDimension
+      ArrayDimensions: [0]
+      Value: [{"TypeId":{"Id":252,"Namespace":1},"Body":{"Hash":[12,53,104,96,46,130,68,30,23,128,206,255,4,189,231,8,242,208,225,18,249,62,243,111,37,81,83,16,41,143,194,30],"Salt":[60,191,6,223,116,199,122,50,27,231,76,107,130,220,113,243,198,218,88,106,14,9,222,223,207,202,7,156,145,245,199,31]}}]
+  - Name: LocaleId
+    Id: g=e206162ead57cba7c1f3fb03f9532af8
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: Language
+    Id: g=354a19dcd94f95f3181efd6d201211c5
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    Value: "en-US"
+  - Name: MeasurementSystem
+    Id: g=ab6bf2b62a1a5f666e05597a883d4ffb
+    Type: BaseVariableType
+    DataType: MeasurementSystem
+    ReferenceType: HasProperty
+    Value: 2
+  - Class: Reference
+    Type: HasGroup
+    Target: g=1defaffd0933f5175dc499d7a010121b
