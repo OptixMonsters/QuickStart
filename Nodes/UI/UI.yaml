@@ -864,7 +864,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/QuickStart/UI/Pages/Page8"
+          Value: "/Objects/QuickStart/UI/Pages/LanguageSwitching"
           Children:
           - Name: Kind
             Type: PropertyType
