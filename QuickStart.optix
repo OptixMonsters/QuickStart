@@ -113,15 +113,23 @@ Project:
    Uri: 'urn:FTOptix:Recipe:Net'
    Module: FTOptix.Recipe.Net
    Version: 1.0
+  29:
+   Uri: 'urn:FTOptix:Report'
+   Module: FTOptix.Report
+   Version: 3.0
+  30:
+   Uri: 'urn:FTOptix:Report:Net'
+   Module: FTOptix.Report.Net
+   Version: 2.0
  Statistics:
-  TotalNodeCount: 1782
-  Objects: 401
+  TotalNodeCount: 2192
+  Objects: 512
   ObjectTypes: 16
-  Variables: 1354
+  Variables: 1653
   VariableTypes: 0
   DataTypes: 0
   Methods: 11
-  References: 86
+  References: 88
   ReferenceTypes: 0
   Files: 22
  Nodes:
