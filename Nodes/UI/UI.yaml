@@ -800,7 +800,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/QuickStart/UI/Pages/Page4"
+          Value: "/Objects/QuickStart/UI/Pages/DataGrid"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -816,7 +816,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/QuickStart/UI/Pages/Page5"
+          Value: "/Objects/QuickStart/UI/Pages/RT_Trend"
           Children:
           - Name: Kind
             Type: PropertyType
@@ -832,7 +832,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/QuickStart/UI/Pages/Page6"
+          Value: "/Objects/QuickStart/UI/Pages/HT_Trend"
           Children:
           - Name: Kind
             Type: PropertyType
