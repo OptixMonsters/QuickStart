@@ -105,16 +105,24 @@ Project:
    Uri: 'urn:FTOptix:DataLogger:Net'
    Module: FTOptix.DataLogger.Net
    Version: 1.0
+  27:
+   Uri: 'urn:FTOptix:Recipe'
+   Module: FTOptix.Recipe
+   Version: 1.0
+  28:
+   Uri: 'urn:FTOptix:Recipe:Net'
+   Module: FTOptix.Recipe.Net
+   Version: 1.0
  Statistics:
-  TotalNodeCount: 1220
-  Objects: 301
+  TotalNodeCount: 1782
+  Objects: 401
   ObjectTypes: 16
-  Variables: 901
+  Variables: 1354
   VariableTypes: 0
   DataTypes: 0
-  Methods: 2
-  References: 56
+  Methods: 11
+  References: 86
   ReferenceTypes: 0
-  Files: 21
+  Files: 22
  Nodes:
  - File: Nodes/QuickStart.yaml

@@ -848,7 +848,7 @@ Children:
         - Name: Panel
           Type: NodePointer
           DataType: NodeId
-          Value: "/Objects/QuickStart/UI/Pages/Page7"
+          Value: "/Objects/QuickStart/UI/Pages/Recipes"
           Children:
           - Name: Kind
             Type: PropertyType

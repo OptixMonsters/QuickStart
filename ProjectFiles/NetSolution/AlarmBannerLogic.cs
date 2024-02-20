@@ -13,6 +13,7 @@ using FTOptix.SQLiteStore;
 using FTOptix.Store;
 using FTOptix.EventLogger;
 using FTOptix.DataLogger;
+using FTOptix.Recipe;
 #endregion
 
 public class AlarmBannerLogic : BaseNetLogic
